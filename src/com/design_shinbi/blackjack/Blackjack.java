@@ -17,8 +17,7 @@ public class Blackjack {
 	}
 	
 	public static void start(Scanner scanner) {
-		
-		// 実装してみよう
+	
 		Player player = new Player(scanner);
 		Dealer dealer = new Dealer();
 		Stock stock = new Stock();
@@ -35,7 +34,7 @@ public class Blackjack {
 	
 	public static void showResult(Attender player, Attender dealer) {
 		
-		// 実装してみよう
+	
 		dealer.display();
 		player.display();
 		
