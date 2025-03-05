@@ -3,7 +3,9 @@ package com.design_shinbi.blackjack.model;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 
+ */
 public abstract class Attender {
     protected List<Card> cards;
     protected String name;
